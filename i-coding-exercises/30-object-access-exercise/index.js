@@ -7,6 +7,5 @@ const restaurant = {
     zipcode: "11206",
 };
 
-
 //YOUR CODE GOES DOWN HERE:
 let fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
