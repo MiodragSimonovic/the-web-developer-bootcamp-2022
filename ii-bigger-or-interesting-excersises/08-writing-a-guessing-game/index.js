@@ -28,7 +28,7 @@ setTimeout(function () { // this is needed for HTML elements to load before prom
     if (guessNumber.toLowerCase().trim() === 'q' && attempts === 2) {
         alert(`You quited the game after ${attempts - 1} guess. Number that you needed to guess was ${targetNumber}.`);
     } else if (guessNumber.toLowerCase().trim() === 'q') {
-        alert(`You quited the game after ${attempts - 1} guesses. Number that you needed to guess was ${targetNumber}.`)
+        alert(`You quited the game after ${attempts - 1} guesses. Number that you needed to guess was ${targetNumber}.`);
     } else if (attempts === 1) {
         alert(`You got it! The number that you looking for was ${targetNumber}. It took you only ${attempts} guess!!!`);
     } else {
