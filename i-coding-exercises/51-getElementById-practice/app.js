@@ -1,2 +1,2 @@
-let heading = document.getElementById("mainheading");
-let image = document.getElementById("unicorn");
+const heading = document.getElementById("mainheading");
+const image = document.getElementById("unicorn");
